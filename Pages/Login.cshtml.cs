@@ -15,14 +15,15 @@ namespace AccountsCreate.Pages
         public User _us { get; set; }
         public void OnGet()
         {
+            //_us = _db.Users.Where(x => x.Name == );
         }
-        /*public IActionResult OnPost()
+       /* public IActionResult OnPost()
         {
-            var u = _db.Users.Find(_us.Name);
-           if (_db.Users.Contains(u) == true)
+            if (_db.Users.Contains(u) == true && _db.Users.Contains(v) == true)
             {
-
+                return RedirectToPage("ProfilePage");
             }
+            else return RedirectToPage("Login");
         }*/
     }
 }
