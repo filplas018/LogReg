@@ -17,6 +17,7 @@ namespace AccountsCreate.Pages
         private readonly SessionStorage _ss;
         [BindProperty]
         public User _us { get; set; }
+        public List<User> Users { get; set; }
         public LoginModel(SessionStorage ss, AppDbContext db)
         {
             _ss = ss;
@@ -24,11 +25,12 @@ namespace AccountsCreate.Pages
         }
         public void OnGet()
         {
-            //_us = _db.Users.Where(x => x.Name == );
+            Users = _db.Users.ToList();
         }
-       public IActionResult OnPost()
+       /*public IActionResult OnPost()
         {//TODO
-            if ()
+            
+            /*if ()
             {
 
             }
@@ -36,6 +38,6 @@ namespace AccountsCreate.Pages
             {
                 return RedirectToPage("Login");
             }
-        }
+        }*/
     }
 }
