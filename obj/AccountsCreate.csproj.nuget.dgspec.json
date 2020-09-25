@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Filip\\source\\repos\\AccountsCreate\\AccountsCreate.csproj": {}
+    "C:\\Users\\filplas018\\source\\repos\\LogReg\\AccountsCreate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Filip\\source\\repos\\AccountsCreate\\AccountsCreate.csproj": {
+    "C:\\Users\\filplas018\\source\\repos\\LogReg\\AccountsCreate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Filip\\source\\repos\\AccountsCreate\\AccountsCreate.csproj",
+        "projectUniqueName": "C:\\Users\\filplas018\\source\\repos\\LogReg\\AccountsCreate.csproj",
         "projectName": "AccountsCreate",
-        "projectPath": "C:\\Users\\Filip\\source\\repos\\AccountsCreate\\AccountsCreate.csproj",
-        "packagesPath": "C:\\Users\\Filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Filip\\source\\repos\\AccountsCreate\\obj\\",
+        "projectPath": "C:\\Users\\filplas018\\source\\repos\\LogReg\\AccountsCreate.csproj",
+        "packagesPath": "C:\\Users\\filplas018\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\filplas018\\source\\repos\\LogReg\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filplas018\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,10 +41,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.AspNetCore.Session": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.8, )"
@@ -78,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
