@@ -8,10 +8,11 @@
     <h1 class="display-4">Welcome</h1>
     <p>Zaregistruj se nebo se přihlaš</p>
     <form method="post">
-        <input type="text" asp-for="_us.Name"/><br />
-        <input type="password" asp-for="_us.Password"/><br />
-        <input type="password" asp-for="ControlPass" /><br />
+        <input type="text" asp-for="_us.Name" placeholder="Name"/><br />
+        <input type="password" asp-for="_us.Password" placeholder="Heslo"/><br />
+        <input type="password" asp-for="ControlPass" placeholder="Potvrdit heslo" /><br />
         <input type="submit" />
     </form>
+    <p>@Model.message</p>
     <a href="./Login"><span>Přihlášení</span></a>
 </div>

@@ -76,3 +76,6 @@ C:\Users\Filip\source\repos\AccountsCreate\obj\Debug\netcoreapp3.1\AccountsCreat
 C:\Users\Filip\source\repos\AccountsCreate\obj\Debug\netcoreapp3.1\Razor\Pages\NewUser.cshtml.g.cs
 C:\Users\Filip\source\repos\AccountsCreate\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
 C:\Users\Filip\source\repos\AccountsCreate\obj\Debug\netcoreapp3.1\Razor\Pages\ProfilePage.cshtml.g.cs
+C:\Users\Filip\source\repos\AccountsCreate\bin\Debug\netcoreapp3.1\Utf8Json.dll
+C:\Users\Filip\source\repos\AccountsCreate\obj\Debug\netcoreapp3.1\AccountsCreate.csproj.CoreCompileInputs.cache
+C:\Users\Filip\source\repos\AccountsCreate\obj\Debug\netcoreapp3.1\AccountsCreate.MvcApplicationPartsAssemblyInfo.cache

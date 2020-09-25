@@ -13,6 +13,7 @@ namespace AccountsCreate.Services
         readonly ISession _session;
         const string KEY = "key";
         public User user { get; set; }
+
         public SessionStorage(IHttpContextAccessor hca)
         {
             _session = hca.HttpContext.Session;
@@ -24,6 +25,14 @@ namespace AccountsCreate.Services
         public User GetUser()
         {
             return _session.Get<User>(KEY);
+        }
+        public void SetMess(string mess)
+        {
+           _session.SetString(KEY, mess);
+        }
+        public string GetMess()
+        {
+            return _session.GetString(KEY);
         }
     }
 }

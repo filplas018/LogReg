@@ -2,8 +2,15 @@
 @model AccountsCreate.Pages.LoginModel
 @{
 }
-<form method="post">
-    <input type="text" asp-for="_us.Name" /><br />
-    <input type="password" asp-for="_us.Password" /><br />
-    <input type="submit" />
-</form>
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Přihlaš se podle svých údajů.</p>
+    <form method="post">
+        <input type="text" asp-for="Name" placeholder="Jméno" /><br />
+        <input type="password" asp-for="Pass" placeholder="Heslo" /><br />
+        <input type="submit" />
+    </form>
+</div>
+<div>
+    <p></p>
+</div>
