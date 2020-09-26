@@ -19,7 +19,9 @@ namespace AccountsCreate.Pages
         public string Pass { get; set; }
         [BindProperty]
         public User _us { get; set; }
+        [BindProperty]
         public List<User> Users { get; set; }
+        public string message { get; set; }
         public LoginModel(SessionStorage ss, AppDbContext db)
         {
             _ss = ss;
@@ -27,11 +29,23 @@ namespace AccountsCreate.Pages
         }
         public void OnGet()
         {
-            //_us = _db.Users.Where(x => x.Name == );
+            Users = _db.Users.ToList();
         }
-        public void OnPost()
+        public IActionResult OnPost()
         {
-           // _us = _db.Users.Find(Name, Pass);
+            Users = _db.Users.ToList();
+            foreach (var i in Users)
+            {
+                
+                if (i.Name == Name && i.Password == Pass)
+                {
+                    _us.Name = Name;
+                    _us.Password = Pass;
+                    _ss.SaveUser(_us);
+                    return RedirectToPage("./ProfilePage");
+                }
+            }
+            return RedirectToPage("./Login");
             
         }
     }
